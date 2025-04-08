@@ -23,6 +23,7 @@ class GerenciadorPessoa {
 
     atualizarDOM(){
         let lista = document.getElementById("listaPessoas");
+        lista.innerHTML = "";
         
         this.pessoas.forEach((pessoa, index) => {
             let li = document.createElement("li");
