@@ -1,6 +1,6 @@
 - Copie os arquivos e organize o projeto dessa forma:
 ```
-user-crud-manual/
+crud/
 ├── server.js
 ├── db.js
 ├── routes/
